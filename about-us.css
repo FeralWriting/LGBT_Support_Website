@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: white; /* Change the font color*/
+  background-color: #B8B3E9;
+  box-sizing: border-box;
+}
+
+body {
+  background: #B8B3E9;
+}
+
+.about-us img {
+  height: 700px;
+  width: 40%;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-us p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D999B9;
+  border-style: solid;
+  border-color: #D17B88;
+}
+
+/* TODO (optional): Change the font size*/
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 20px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #90E0F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #D17B88;
+  color: #B8B3E9;
+}
+
+li.left-nav {
+  float: left;
+  font-size: 20px;
+}
+li.left-nav a {
+  display: block;
+  color: #90E0F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Mono", sans-serif;
+}
+li.left-nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #D17B88;
+  color: #B8B3E9;
+}
+
+/************************************************/
+/*********** CSS FOR FLEXBOX HEADING ************/
+/************************************************/
+
+/* TODO: Review the CSS properties to the flexbox container for title and intro text */
