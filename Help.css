@@ -1,0 +1,144 @@
+body {
+  background: #B8B3E9;
+}
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: white; /* Change the font color*/
+  background-color: #B8B3E9;
+  box-sizing: border-box;
+}
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: -0.56%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #D999B9;
+  border-style: solid;
+  border-color: #D17B88;
+}
+
+/* TODO (optional): Change the font size*/
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 20px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #90E0F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Mono", sans-serif;
+}
+
+li.left-nav {
+  float: left;
+  font-size: 20px;
+}
+
+li.left-nav a {
+  display: block;
+  color: #90E0F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Mono", sans-serif;
+}
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+li.left-nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #D17B88;
+  color: #B8B3E9;
+}
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #D17B88;
+  color: #B8B3E9;
+}
+
+.heading-home {
+  color: white;
+  font-family: "Roboto Mono", sans-serif;
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    45deg,
+    #CA4246 16.666%,
+    #E16541 16.666%,
+    #E16541 33.333%,
+    #F18F43 33.333%,
+    #F18F43 50%,
+    #8B9862 50%,
+    #8B9862 66.666%,
+    #476098 66.666%,
+    #476098 83.333%,
+    #A7489B 83.333%
+  );
+
+  padding: 2%;
+  margin: 2%;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+}
+
+/* this is for the Donate word*/
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Roboto Mono", sans-serif;
+  color: white;
+
+  line-height: 1.3em;
+  text-align: center;
+}
+
+h3 {
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-family: "Roboto Mono", sans-serif;
+  color: Black;
+  line-height: 1.3em;
+  text-align: center;
+  border-style: solid;
+}
+
+ul.help-nav {
+  list-style-type: none;
+  margin: 20px;
+  padding: 25px;
+  overflow: hidden;
+  /*background-color: #D999B9;
+  border-style: solid;
+  border-color: #D17B88;*/
+}
+
+li.nav3 a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 25px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "Roboto Mono", sans-serif;
+  text-decoration: underline;
+}
