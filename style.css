@@ -1,0 +1,317 @@
+/* 
+
+This CSS file is contains the CSS rule sets for 
+    - index.html
+    - any universal elements that all pages use
+
+The CSS for the take-action.html is in take-action.css
+
+*/
+
+/************************************************/
+/************* UNIVERSAL ELEMENTS ***************/
+/************************************************/
+
+/* TODO: Customize your font properties and background color for all elements inside the <body> and <html> tags */
+body,
+html {
+  height: 100%;
+  font-size: 20px; /* Change the font size*/
+  font-family: "Roboto", sans-serif; /* Change the font */
+  line-height: 1.5em; /* Change the line height size*/
+  margin: 0em;
+  color: white; /* Change the font color*/
+  background-color: #B8B3E9;
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 50px;
+  /*TODO: Change the font-family property to your linked font*/
+  font-family: "Roboto Mono", sans-serif;
+  color: #D999B9;
+  text-align: center;
+}
+
+/*TODO: Change the font-family property to your linked font*/
+h2 {
+  letter-spacing: 3px;
+  font-size: 35px;
+  font-family: "Roboto Mono", sans-serif;
+  color: Black;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+/*TODO: Change the color of a link when a person hovers over it*/
+p a {
+  color: #75F4F4;
+  text-decoration: none;
+}
+p {
+  color: #75F4F4;
+  text-align: center;
+}
+/************************************************/
+/*************** CSS FOR NAV BAR ****************/
+/************************************************/
+
+/* All of these TODOs are optional. You should change the styling based on your mockup */
+
+/* TODO (optional): Change the background color and/or border style */
+
+ul.nav-bar {
+  /* Styling for the <ul class="nav-bar"> element */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D999B9;
+  border-style: solid;
+  border-color: #D17B88;
+}
+/* TODO (optional): Change the font size*/
+
+li.left-nav {
+  float: left;
+}
+li.left-nav a {
+  display: block;
+  color: #90E0F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+li.nav {
+  /* Styling for the <li class="nav"> element */
+  float: right;
+  font-size: 20px;
+}
+
+/* TODO (optional): Change the font color, decoration, and/or case */
+
+li.nav a {
+  /* Styling for the <a> elements in <li class="nav"> */
+  display: block;
+  color: #90E0F3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* TODO (optional): Change the background color and/or font color when the mouse hovers over an item */
+
+li.nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #D17B88;
+  color: #B8B3E9;
+}
+
+li.left-nav a:hover {
+  /* Styling for the <a> elements when the mouse is hovering in <li class="nav"> */
+  background-color: #D17B88;
+  color: #B8B3E9;
+}
+
+/************************************************/
+/*********** CSS FOR FLEXBOX HEADING ************/
+/************************************************/
+
+/* TODO: Review the CSS properties to the flexbox container for title and intro text */
+.flex-container {
+  display: flex; /* Set the flexbox display */
+  flex-direction: row; /* Configure the flex items to row */
+  flex-wrap: nowrap; /* Don’t wrap the flex items */
+  justify-content: center; /* Justify the flex items to the center */
+  align-items: center; /* Align the flex items to the center */
+
+  /* Design properties */
+  /*background-color: #0D38D3;
+  padding: 5px;
+
+  /* Positioning properties */
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  top: -40%; /* Change this value to move the box up or down */
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/* TODO: Review the CSS properties to the flex item for the heading (the left box) */
+.heading-home {
+  /*background-color: white;
+  
+  /* Create the gradient. */
+  /* background-image: linear-gradient(
+        45deg,
+        #CA4246 16.666%, 
+        #E16541 16.666%, 
+        #E16541 33.333%, 
+        #F18F43 33.333%, 
+        #F18F43 50%, 
+        #8B9862 50%, 
+        #8B9862 66.666%, 
+        #476098 66.666%, 
+        #476098 83.333%, 
+        #A7489B 83.333%);
+ 
+  padding: 7%;
+  font-size: 50px;
+  letter-spacing: 10px;
+  line-height: 60px;
+  text-align: center;
+  
+
+
+  
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/* TODO: Review the CSS properties to the flex item for the intro text (the right box) */
+.intro-text {
+  /*background-color: white; /* Add your own background color */
+
+  padding: 6%;
+  margin: 3%;
+  color: #0D38D3; /* Add the color of your font */
+  font-size: 20px; /* Add your font size*/
+  letter-spacing: 2px; /* Adds space between letters */
+  line-height: 1.4em; /* Adds space between lines */
+  text-align: center;
+
+  /*Debugging Tip: Uncomment the line below to see the outline of the container*/
+  /*border-style: dotted;*/
+}
+
+/************************************************/
+/*************** PARALLAX SCROLL ****************/
+/************************************************/
+
+/*-----------TEXT SECTIONS-----------*/
+
+/* TODO (optional): Change the background color and/or text alignment */
+
+.main-message {
+  padding: 70px 45px;
+  text-align: center;
+  background-size: cover;
+  min-height: 100%;
+  background-repeat: no-repeat;
+}
+
+/*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
+
+/* TODO: Add the CSS selector for each image to the collective image rule set */
+
+.main-message,
+.image-one {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%; /* This adjusts the height of the image */
+
+  /* TODO: Add the property to create the parallax scrolling effect here */
+}
+
+.main-message,
+.image-two {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100%;
+}
+
+.main-message,
+.image-one,
+.image-two {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  backgroundsize: cover;
+  background-attachment: fixed;
+}
+
+.main-message {
+  background-image: url("https://cdn.glitch.com/f1648b59-a602-4c25-af22-c4521958ddd1%2FAllyship-02-1060x448.png?v=1593092399741");
+  height: 700px;
+  background-attachment: fixed;
+}
+
+/* TODO: Replace the current image URL with your own */
+.image-one {
+  background-image: url("https://cdn.glitch.com/f1648b59-a602-4c25-af22-c4521958ddd1%2FYouthReport-Statistics-3-1600x900.jpg?v=1593092402258");
+  height: 700px;
+  background-attachment: fixed;
+}
+.image-two {
+  background-image: url("https://cdn.glitch.com/f1648b59-a602-4c25-af22-c4521958ddd1%2Fhow%20to%20be%20an%20lgbtqia%20ally%20thumbnail.jpg?v=1593094006225");
+  height: 500px;
+  background-attachment: fixed;
+}
+
+.image-three {
+  background-image: url("https://cdn.glitch.com/f1648b59-a602-4c25-af22-c4521958ddd1%2Flgbt-5267885_640.png?v=1592932672935");
+  height: 700px;
+  background-attachment: fixed;
+}
+/* TODO: Add a second background image. Make sure you add this class selector to the collective image rule set above */
+
+/* TODO: Add more background images by repeating the process above */
+
+/*-----------IMAGE ATTRIBUTIONS (if required)-----------*/
+.attributions {
+  font-size: 12px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/******************************************************/
+/***** CHANGE INDEX.HTML CSS BASED ON SCREEN SIZE *****/
+/******************************************************/
+
+/* TODO: Add a breakpoint if the screen is 700px or less */
+
+/* TODO: Add additional breakpoints based on your website's design*/
+
+/* This is the checklist*/
+.action-list-container {
+  font-size: 0px;
+  font-family: "Roboto Mono", sans-serif;
+  width: 10px;
+}
+
+li.action-li {
+  font-size: 18px;
+  font-family: "Roboto Mono", sans-serif;
+  width: 10px;
+}
+
+.text-section a {
+  color: black;
+}
+
+/* This is for the checklist/ trying to move it to the right*/
+#checklist {
+  margin: 20px auto;
+  min-width: 500px;
+}
+/*
+nav {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+*/
