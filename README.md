@@ -1,4 +1,4 @@
-# Voices Unsilenced - LGBT+ Support Website
+# Voices Unsilenced - LGBT Support Website
 
 A project I participated on along with two other people, Vanessa Fenin and Deborah Camacho, called Voices Unsilenced. We created a website with the goal of assisting LGBTQ+ youths and providing resources to those who would also like to get involved. It provides important information on voting, current and historical events/issues, and emergency assistance. The site consists of four pages, a home page, a resources page, a get help page, and an about us page. This project incorporated Javascript, HTML, and CSS. This project gave me experience with cooperation, remote group work, web developement, web design, debugging, checklists, and the parallax scrolling effect. The website can be found here: https://lgbtq-website.glitch.me/.
 
@@ -18,7 +18,7 @@ The resources page provides information to users about problems the community is
 
 ### Get Help Page
 
-The get help page contains a header and resources to use if LGBT+ individuals are in need of assistance. It provides information about shelters, mental health issues, and parental issues.
+The get help page contains a header and resources to use if queer individuals are in need of assistance. It provides information about shelters, mental health issues, and parental issues.
 
 ### About Us Page
 
