@@ -207,6 +207,7 @@ li.left-nav a:hover {
   background-size: cover;
   min-height: 100%;
   background-repeat: no-repeat;
+  pointer-events: none;
 }
 
 /*---------IMAGE STYLING + PARALLAX PROPERTY---------*/
